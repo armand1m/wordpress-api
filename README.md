@@ -1,3 +1,7 @@
+#Edit
+This is a fork from [developerworks/wordpress-xmlrpc-javascript-api](developerworks/wordpress-xmlrpc-javascript-api),
+implementing CommonJs module exports and Bower dependency management.
+
 WordPress XmlRpc Javascript Api
 =====================
 
@@ -6,6 +10,8 @@ It implement all interfaces descripted at [XML-RPC_WordPress_API](http://codex.w
 
 Examples:
 ======
+    var WordPress = require("wordpress");
+
     var connection = {
         url : "your xmlprc url such as http://www.exmaple.com/xmlrpc.php",
         username : "you login name",

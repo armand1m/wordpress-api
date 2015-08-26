@@ -37,6 +37,8 @@
  * @returns {WordPress}
  */
 
+var XmlRpcRequest = require("./lib/mimic/source/modules/xml-rpc-request");
+
 function WordPress(url, username, password) {
 	this.url = url;
 	this.username = username;
@@ -867,3 +869,4 @@ WordPress.prototype.getAuthors = function(blog_id) {
 	return resp.parseXML();
 };
 
+module.exports = WordPress;

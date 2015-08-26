@@ -1,0 +1,20 @@
+{
+  "name": "wordpress-api",
+  "version": "0.0.0",
+  "homepage": "https://github.com/armand1m/wordpress-api",
+  "authors": [
+    "Armando Magalhães <armando.mag95@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mimic": "armand1m/mimic",
+    "qunit": "~1.18.0"
+  }
+}
