@@ -37,7 +37,7 @@
  * @returns {WordPress}
  */
 
-var XmlRpcRequest = require("./lib/mimic/source/modules/xml-rpc-request");
+var XmlRpcRequest = require("../mimic/source/modules/xml-rpc-request");
 
 function WordPress(url, username, password) {
 	this.url = url;
