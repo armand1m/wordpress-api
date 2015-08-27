@@ -43,7 +43,7 @@ function WordPress(url, username, password) {
 	this.url = url;
 	this.username = username;
 	this.password = password;
-	this.request = new XmlRpcRequest(this.url, "POST");
+	this.request = new XmlRpcRequest(this.url);
 }
 
 /**
